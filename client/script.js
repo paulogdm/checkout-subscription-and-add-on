@@ -2,7 +2,7 @@ var stripe;
 var checkoutSessionId;
 
 var setupElements = function() {
-  fetch("/public-key", {
+  fetch("/api/public-key", {
     method: "GET",
     headers: {
       "Content-Type": "application/json"
@@ -17,7 +17,7 @@ var setupElements = function() {
 };
 
 var createCheckoutSession = function(isBuyingSticker) {
-  fetch("/create-checkout-session", {
+  fetch("/api/create-checkout-session", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

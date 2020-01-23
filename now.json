@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "redirects": [
+
+  ],
+  "env": {
+    "STRIPE_PUBLISHABLE_KEY": "",
+    "STRIPE_SECRET_KEY": "",
+    "STRIPE_WEBHOOK_SECRET": "whsec_1234",
+    "SUBSCRIPTION_PLAN_ID": "plan_12345",
+    "DOMAIN=https://www.example.com"
+  }  
+}

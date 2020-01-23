@@ -124,3 +124,7 @@ A: We are always looking for new recipe ideas, please email dev-samples@stripe.c
 
 ## Author(s)
 [@adreyfus-stripe](https://twitter.com/adrind)
+
+## Deploying to Now
+
+Don't forget to edit `now.json`.
